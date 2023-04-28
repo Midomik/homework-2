@@ -4,10 +4,8 @@
 
 :root {
   --color-contact: #434455;
-  --bckg-color-main:#2e2f42;
+  --bckg-color-main: #2e2f42;
 }
-
-
 
 body {
   font-family: "Roboto", sans-serif;
@@ -40,7 +38,7 @@ button {
 }
 
 .logo-studio {
-  font-family: "Raleway",sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
@@ -86,40 +84,41 @@ button {
 }
 
 .main-haeder-block {
-  background-color:var(--bckg-color-main) ;
+  background-color: var(--bckg-color-main);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #FFFFFF; 
+  color: #ffffff;
 }
 
-.main-header{
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: #FFFFFF;
+.main-header {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .order-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
-  background: #4D5AE5;
+  color: #ffffff;
+  background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
 .order-btn:hover,
-.order-btn:focus{
-    background-color: #404BBF;
+.order-btn:focus {
+  background-color: #404bbf;
 }
 
 .feature-heading {
@@ -130,7 +129,7 @@ button {
   color: #2e2f42;
 }
 
-.feature-descriptio {
+.feature-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -146,6 +145,24 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+
+.our-team {
+  background-color: #f4f4fd;
+}
+
+.our-team-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--bckg-color-main);
+}
+
+.our-team-item{
+    background-color:#FFFFFF ;
 }
 
 .worker-name {
@@ -164,6 +181,10 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.footer-main-studio{
+    background-color:var(--bckg-color-main);
 }
 
 .footer-text {
