@@ -25,10 +25,10 @@ button {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -37,7 +37,7 @@ button {
 }
 
 .logo-studio {
-  font-family: "Raleway";
+  font-family: "Raleway",sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
